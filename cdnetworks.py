@@ -22,7 +22,7 @@ API_URLS = {
 }
 
 
-class CDNNetworks:
+class CDNetworksAPI:
 
     def __init__(self, username, password, area=SERVICE_AREA_US_GLOBAL):
         assert(area in API_URLS)

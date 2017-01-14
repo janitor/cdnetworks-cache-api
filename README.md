@@ -3,9 +3,9 @@
 ## Usage
 
 ```python
-from cdnetworks import CDNNetworks, SERVICE_AREA_US_GLOBAL
+from cdnetworks import CDNetworksAPI, SERVICE_AREA_US_GLOBAL
 
-cdn = CDNNetworks('login', 'password', SERVICE_AREA_US_GLOBAL)
+cdn = CDNetworksAPI('login', 'password', SERVICE_AREA_US_GLOBAL)
 
 cdn.get_pads()
 {'pads': [u'cdn1.example.com', u'cdn2.example.com']}
